@@ -1,0 +1,49 @@
+-
+  id: 307
+  title: "Coffee Break"
+  place: "Hall"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+-
+  id: 100
+  title: "Arrival & Get-together"
+  language: en
+  service: true
+  description: "Grab some beer and food and get excited"
+-
+  id: 000
+  title: "Welcome to Deep Learning in Action, 3rd Edition"
+  language: en
+  description: "Welcome to our 3rd Edition. Introduction of Schedule and Sponsors."
+  speakers: [3,2]
+-
+  id: 003
+  title: "Roboy Student Club"
+  language: en
+  description: "Introduction of the Roboy Student Club"
+  speakers: [4]
+-
+  id: 001
+  title: "Deep Learning RNNaissance"
+  description: "In recent years, our deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. They are now widely used in industry. I will briefly review deep supervised / unsupervised / reinforcement learning, and discuss the latest state of the art results in numerous applications."
+  subtype: keynote
+  language: en
+  complexity: "Beginner"
+  speakers: [1]
+
+-
+  id: 002
+  title: "Discussion"
+  description: "Deep Learning and the Future. A Conversation with Prof. Dr. Jürgen Schmidhuber"
+  subtype: keynote
+  speakers: [1]
+  language: en
+  complexity: "Beginner" 
+  # video: "https://www.youtube.com/embed/6hIUFklI28I"
+  # presentation: "https://www.slideshare.net/slideshow/embed_code/key/o6j8mkmfmFrQyE"
+-
+  id: 101
+  title: "Social Evening & Demo Day"
+  language: en
+  service: true
+  description: "Wow, awesome talks! Grab a beer, check out cool stuff and (maybe) find a job"

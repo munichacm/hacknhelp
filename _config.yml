@@ -1,0 +1,287 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Tech in Action"
+email: "munichacm@gmail.com"
+description: "Tech in Action is a Meetup aiming to create a local tech response / solution to the european refugee crisis"
+baseurl: "/techinaction"
+url: "https://munichacm.github.io"
+#permalink: "/blog/:title"
+
+# Organizer Info
+organizerName: "IEEE/ACM | Munich Student Club"
+organizerAlternateName: ""
+organizerDescription: ""
+organizerEmail: ""
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://munichacm.de"
+
+# Head
+metaKeywords: "machine learning, deep learning"
+twitterAccount: "@CSclubMuc"
+addThisEvent: true
+socialImageSrcGooglePlus: "/img/sections-background/hero.jpg"
+socialImageSrcTwitter: "/img/sections-background/hero.jpg"
+socialImageSrcFacebook: "/img/sections-background/hero.jpg"
+
+# Documents
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: ""
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ #- {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ #- {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/logistics/", text: "Logistics"}
+ #- {link: "http://munichacm.de/dlia-02/", text: "Previous Event"}
+heroButtons:
+ - {permalink: "", text: "Next meetup"}
+bottomNavigationLinks:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+rightNavigationButtons:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Tech <typeout>"
+eventDate: "<h4>Hacking the European Refugee Crisis</h4>"
+typeoutTextValues: '"in Action","in Munich","for Refugees"'
+typeoutFallback: "in Action"
+heroButtons:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {permalink: "/#tickets", text: "Buy tickets"}
+
+# About Block
+aboutTitle: "The European Refugee Crisis"
+aboutBlock:
+ #- {title: "Awesome topic", image: "conference.jpg", text: "Deep Learning in Action! Finally, everything you ever wanted to know about deep learning! Attend, ask questions and have fun." }
+ #- {title: "Awesome people", image: "workshop.jpg", text: "It's a meetup. Meet and talk to awesome people and get things started. Of course beer and snacks are for free!" }
+ #- {title: "Awesome talks", image: "hackathon.jpg", text: "Talks are fun and kept on an introductory level. We get experts and students from academia and industry to talk about state-of-the-art machine learning." }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "800000", specialCharacter: "+", info: "Refugees", detail: "expected to arrive in Germany"}
+ - {count: "13000", specialCharacter: "", info: "Refugees", detail: "arrived on one day in Munich"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 1
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Stylight"
+eventLocationLink: ""
+eventStreetAddress: "Nymphenburger Straße 48"
+eventAddressLocality: ""
+eventAddressLocalityRegion: ""
+eventPostalCode: ""
+eventAddressCountry: "Germany"
+eventStartTime: "2015-10-07T18:15"
+eventDoorTime: "18:00"
+eventEndTime: "2015-10-07T20:00"
+eventPlaceCoordinates: "48.1506177,11.5470593"
+mapCenterCoordinates: "48.1506177,11.5470593"
+mapMobileCenterCoordinates: "48.1506177,11.5470593"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Stylight HQ"
+venueFeatures: ["Beautiful room!", "Free beer and sandwiches", "A lot of space"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "Tweets & Media"
+twitterHashTag: "techfugees"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+#Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+-
+ name: "Early Bird"
+ price: "350"
+ priceCurrency: "UAH"
+ ticketsNumber: "150"
+ ribbon: "-5%"
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-08-25T10:00"
+ validThrough: "2014-09-30T23:59"
+-
+ name: "Last Chance"
+ price: "450"
+ priceCurrency: "UAH"
+ ticketsNumber: "100"
+ ribbon: "-20%"
+ featured: true
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-10-01T00:00"
+ validThrough: "2014-10-23T23:59"
+ disabled: true
+-
+ name: "Student"
+ price: "200"
+ priceCurrency: "UAH"
+ ticketsNumber: "50"
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-08-20T10:00"
+ validThrough: "2014-10-23T23:59"
+ soldOut: true
+ soldOutText: "Sold Out"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/u/0/105345095542199863368/about", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=CSclubMuc", icon: "twitter"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://munichacm.de", text: "munichacm.de"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:munichacm@gmail.com", text: "munichacm@gmail.com"}
+ # -
+ #  title: "FAQ"
+ #  links:
+ #   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "The Munich Student Chapter was founded in 2015. The chapter is established to primarily serve the wide scope of IEEE/ACM which is advancing computing as a science and profession by supporting and training the next generation of computer scientists."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "48.1506177,11.5470593"
+logisticsMapMobileCenterCoordinates: "48.1506177,11.5470593"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+# directionDetailsTitle: "Get around Munich"
+# directionDetailsCards:
+#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+# directionDetailsWideCards:
+#  -
+#   title: "Questions?"
+#   subCards:
+#    -
+#     title: "Hotels"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    -
+#     title: "Registration"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    -
+#     title: "Attendance Details"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: false
+
+# Hackathon About Block
+aboutHackathonTitle: "Our Goal"
+hackathonRows:
+ - {title: "Local tech response", image: "tech.png", details: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."}
+ - {title: "Helping the helpers", image: "donation-1.png", details: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."}
+ - {title: "Long-term solution", image: "long-term.png", details: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Fakultät für Informatik"
+hackathonLocationLink: "http://tum.de/"
+hackathonStreetAddress: "Boltzmannstraße 3"
+hackathonAddressLocality: "Munich"
+hackathonAddressLocalityRegion: "Bavaria"
+hackathonPostalCode: "85748"
+hackathonAddressCountry: "Germany"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 11.669776"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

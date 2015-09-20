@@ -1,0 +1,62 @@
+
+- 
+  id: 0
+  name: "David"
+  surname: "Dao"
+  title: ""
+  thumbnailUrl: david.png
+  team: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/106964331265732757093"}
+    - {name: "twitter", link: "https://twitter.com/daviddao_"}
+    - {name: "github", link: "https://github.com/daviddao"}
+    - {name: "site", link: "http://daviddao.de/"}
+- 
+  id: 1
+  name: "Iris"
+  surname: "Shih"
+  title: ""
+  thumbnailUrl: iris.jpg
+  team: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/117315102812355725652"}
+    - {name: "twitter", link: "https://twitter.com/iriscshih"}
+    - {name: "github", link: "https://github.com/iriscshih"}
+    - {name: "site", link: "http://iriscshih.com/"}
+- 
+  id: 2
+  name: "Habtom"
+  surname: "Kahsay Gidey"
+  title: "Events"
+  thumbnailUrl: habtom.png
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/u/0/112571245243579528650"}
+- 
+  id: 3
+  name: "Frederik"
+  surname: "Diehl"
+  title: "Media"
+  thumbnailUrl: thumbnail.png
+  subTeam: true
+- 
+  id: 4
+  name: "Daffiny"
+  surname: "Lin"
+  thumbnailUrl: daffiny.jpg
+  title: "Catering"
+  subTeam: true
+- 
+  id: 5
+  name: "Nick"
+  surname: "Pawlowski"
+  title: ""
+  thumbnailUrl: thumbnail.png
+  subTeam: true
+- 
+  id: 6
+  name: "Eileen"
+  surname: "Zhang"
+  title: ""
+  thumbnailUrl: thumbnail.png
+  subTeam: true
