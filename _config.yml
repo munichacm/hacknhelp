@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Tech in Action"
 email: "munichacm@gmail.com"
 description: "Tech in Action is a Meetup aiming to create a local tech response / solution to the european refugee crisis"
-baseurl: "/techinaction"
+baseurl: "/techfugees"
 url: "https://munichacm.github.io"
 #permalink: "/blog/:title"
 
@@ -26,7 +26,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://munichacm.de"
 
 # Head
-metaKeywords: "machine learning, deep learning"
+metaKeywords: "tech, munich, refugee crisis"
 twitterAccount: "@CSclubMuc"
 addThisEvent: true
 socialImageSrcGooglePlus: "/img/sections-background/hero.jpg"
