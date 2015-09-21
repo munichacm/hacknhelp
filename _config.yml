@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Tech in Action"
+title: "Hack n Help"
 email: "munichacm@gmail.com"
-description: "Tech in Action is a Meetup aiming to create a local tech response / solution to the european refugee crisis"
-baseurl: "/techfugees"
+description: "Hack n Help is a Meetup aiming to create a local tech response / solution to the european refugee crisis"
+baseurl: "/hacknhelp"
 url: "https://munichacm.github.io"
 #permalink: "/blog/:title"
 
@@ -26,7 +26,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://munichacm.de"
 
 # Head
-metaKeywords: "tech, munich, refugee crisis"
+metaKeywords: "hack, help, munich, refugee crisis"
 twitterAccount: "@CSclubMuc"
 addThisEvent: true
 socialImageSrcGooglePlus: "/img/sections-background/hero.jpg"
@@ -57,10 +57,10 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Tech <typeout>"
+heroTitle: "Hack <typeout>"
 eventDate: "<h4>Hacking the European Refugee Crisis</h4>"
-typeoutTextValues: '"in Action","in Munich","for Refugees"'
-typeoutFallback: "in Action"
+typeoutTextValues: '"n Help","n Change","for Refugees"'
+typeoutFallback: "n Help"
 heroButtons:
  #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  #- {permalink: "/#tickets", text: "Buy tickets"}
