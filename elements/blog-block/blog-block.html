@@ -164,7 +164,7 @@
             this.playAnimation('loadPosts');
         },
         readMore: function(event) {
-            page.redirect('/blog/' + event.model.post.titleUrl);
+            page.redirect('/team/' + event.model.post.titleUrl);
             this.openPost(event.model.post);
         },
         openPost: function(post) {
@@ -178,7 +178,7 @@
             }
         },
         closePost: function() {
-            page('/blog');
+            page('/team');
             this.opened = false;
             this.cancelAnimation();
             this.playAnimation('closePost');
