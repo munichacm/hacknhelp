@@ -1,0 +1,15 @@
+[{
+    "logos": [{
+        "name": "ACM Student Chapter",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/munichacm.png"
+    },{
+        "name": "Stylight",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/stylight.png"
+    },{
+        "name": "Nerds4Refugees",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/ners4refugees.png"
+    }]
+}]
