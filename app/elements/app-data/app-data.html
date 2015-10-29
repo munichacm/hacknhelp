@@ -1,6 +1,7 @@
 <dom-module id="app-data">
     <template>
         <iron-ajax auto url="[[speakersSource]]" handle-as="json" last-response="{{speakers}}"></iron-ajax>
+        <iron-ajax auto url="[[teamersSource]]" handle-as="json" last-response="{{teamers}}"></iron-ajax>
         <iron-ajax auto url="[[sessionsSource]]" handle-as="json" last-response="{{sessions}}"></iron-ajax>
         <iron-ajax auto url="[[postsSource]]" handle-as="json" last-response="{{posts}}"></iron-ajax>
         <iron-ajax auto url="[[partnersSource]]" handle-as="json" last-response="{{partners}}"></iron-ajax>
@@ -22,7 +23,7 @@
             },
             postsSource: {
                 type: String,
-                value: '../../data/blog.json'
+                value: '../../data/teamers.json'
             },
             partnersSource: {
                 type: String,

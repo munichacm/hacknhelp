@@ -7,7 +7,7 @@
     "country": "Munich, Germany",
     "photoUrl": "../../images/people/johann.jpg",
     "bio": "",
-    "tags": ["Android", "Material Design"],
+    "tags": [],
     "badges": [{
         "name": "HacknHelp",
         "description": "",
@@ -31,7 +31,7 @@
     "country": "Munich, Germany",
     "photoUrl": "../../images/people/speaker1.jpg",
     "bio": "",
-    "tags": ["Cloud", "Firebase", "gRPC", "Kubernetes", "Docker"],
+    "tags": [],
     "socials": [{
         "name": "Google+",
         "icon": "app-icons:gplus",
@@ -53,7 +53,7 @@
     "country": "Munich, Germany",
     "photoUrl": "../../images/people/speaker2.jpg",
     "bio": "",
-    "tags": ["Android", "Android M"],
+    "tags": [],
     "badges": [{
         "name": "HacknHelp",
         "description": "",
@@ -76,7 +76,7 @@
     "country": "Munich, Germany",
     "photoUrl": "../../images/people/speaker3.png",
     "bio": "",
-    "tags": ["Community"],
+    "tags": [],
     "badges": [{
         "name": "HacknHelp",
         "description": "",

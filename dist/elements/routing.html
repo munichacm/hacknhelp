@@ -21,22 +21,6 @@
             app.smoothScroll(pricetable, 0);
         });
 
-        page('/blog', function() {
-            trackPageview('/blog');
-            app.route = 'blog';
-        });
-
-        page('/blog/:title', function(ctx) {
-            trackPageview('/blog/' + ctx.params.title);
-            app.route = 'blog';
-            app.params = ctx.params;
-            app.scrollToTop();
-        });
-
-        page.exit('/blog/:title', function() {
-            document.querySelector('#blog').closePost();
-        });
-
         page('/speakers', function() {
             trackPageview('/speakers');
             app.route = 'speakers';
@@ -56,6 +40,17 @@
         page('/schedule/:id', function(data) {
             trackPageview('/schedule/' + data.params.id);
             app.route = 'schedule';
+            app.params = data.params;
+        });
+
+        page('/team', function() {
+            trackPageview('/team');
+            app.route = 'team';
+        });
+
+        page('/team/:id', function(data) {
+            trackPageview('/team/' + data.params.id);
+            app.route = 'team';
             app.params = data.params;
         });
 
