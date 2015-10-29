@@ -1,187 +1,59 @@
 [{
-    "date": "2015-10-23",
-    "dateReadable": "October 23",
+    "date": "2015-11-19",
+    "dateReadable": "November 19",
     "tracks": [{
-        "title": "Expo area"
+        "title": "Stylight"
     }, {
-        "title": "Conference hall"
+        "title": "Stylight"
     }, {
-        "title": "Community hall"
+        "title": "Stylight"
     }],
     "timeslots": [{
-        "startTime": "09:00",
-        "endTime": "10:00",
+        "startTime": "18:00",
+        "endTime": "18:15",
         "sessions": [
             [1001]
         ]
     }, {
-        "startTime": "10:00",
-        "endTime": "10:15",
-        "sessions": [
-            [1005]
-        ]
-    }, {
-        "startTime": "10:15",
-        "endTime": "11:00",
+        "startTime": "18:15",
+        "endTime": "18:30",
         "sessions": [
             [125]
         ]
     }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
+        "startTime": "18:30",
+        "endTime": "19:00",
         "sessions": [
             [109],
             [111],
-            [118, 126]
+            [118]
         ]
     }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
+        "startTime": "19:00",
+        "endTime": "19:30",
         "sessions": [
-            [115],
-            [117],
-            [129, 128]
+            [209],
+            [211],
+            [218]
         ]
     }, {
-        "startTime": "12:30",
-        "endTime": "14:00",
-        "sessions": [
-            [1002]
-        ]
-    }, {
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "sessions": [
-            [116],
-            [133],
-            [127]
-        ]
-    }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-            [113],
-            [124],
-            [139]
-        ]
-    }, {
-        "startTime": "15:30",
-        "endTime": "16:00",
+        "startTime": "19:30",
+        "endTime": "20:00",
         "sessions": [
             [1003]
         ]
     }, {
-        "startTime": "16:00",
-        "endTime": "16:40",
+        "startTime": "20:00",
+        "endTime": "21:00",
         "sessions": [
-            [101],
-            [106],
-            [138]
+            [309],
+            [311]
         ]
     }, {
-        "startTime": "16:50",
-        "endTime": "17:30",
-        "sessions": [
-            [114],
-            [120],
-            [137, 132]
-        ]
-    }, {
-        "startTime": "22:00",
-        "endTime": "02:00",
+        "startTime": "21:00",
+        "endTime": "0:00",
         "sessions": [
             [1006]
-        ]
-    }]
-}, {
-    "date": "2015-10-24",
-    "dateReadable": "October 24",
-    "tracks": [{
-        "title": "Expo area"
-    }, {
-        "title": "Conference hall"
-    }, {
-        "title": "Community hall"
-    }],
-    "timeslots": [{
-        "startTime": "09:30",
-        "endTime": "10:10",
-        "sessions": [
-            [1004]
-        ]
-    }, {
-        "startTime": "10:10",
-        "endTime": "10:50",
-        "sessions": [
-            [110],
-            [103],
-            [121]
-        ]
-    }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
-        "sessions": [
-            [107],
-            [134],
-            [121]
-        ]
-    }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
-        "sessions": [
-            [112],
-            [135],
-            [121]
-        ]
-    }, {
-        "startTime": "12:30",
-        "endTime": "14:00",
-        "sessions": [
-            [1002]
-        ]
-    }, {
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "sessions": [
-            [102],
-            [122],
-            [131]
-        ]
-    }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-            [104],
-            [123],
-            [131]
-        ]
-    }, {
-        "startTime": "15:30",
-        "endTime": "16:00",
-        "sessions": [
-            [1003]
-        ]
-    }, {
-        "startTime": "16:00",
-        "endTime": "16:40",
-        "sessions": [
-            [105],
-            [108],
-            [130]
-        ]
-    }, {
-        "startTime": "16:50",
-        "endTime": "17:30",
-        "sessions": [
-            [119],
-            [140],
-            [130]
-        ]
-    }, {
-        "startTime": "17:40",
-        "endTime": "18:00",
-        "sessions": [
-            [1007]
         ]
     }]
 }]

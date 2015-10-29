@@ -29,7 +29,7 @@
             margin: 0;
         }
 
-        .posted {
+        .members {
             margin-bottom: 5px;
             font-size: 14px;
             color: var(--secondary-text-color);
@@ -84,8 +84,8 @@
                     <div class="post-detail card-content layout horizontal">
                         <div class="flex layout vertical center-center">
                             <span class="title self-start">[[meta.title]]</span>
-                            <span class="posted self-start">Posted:
-                                <span>[[meta.posted]]</span>
+                            <span class="members self-start">Team members:
+                                <span>[[meta.members]]</span>
                             </span>
                         </div>
                         <div>
@@ -104,8 +104,8 @@
                 <div id="title" class="bottom title">[[meta.title]]</div>
             </paper-toolbar>
             <div class="content">
-                <span class="posted">Posted:
-                    <span>[[meta.posted]]</span>
+                <span class="members">Team members:
+                    <span>[[meta.members]]</span>
                 </span>
                 <div class="card-content people-description">
                     <marked-element class="post-content" markdown="[[post]]"></marked-element>

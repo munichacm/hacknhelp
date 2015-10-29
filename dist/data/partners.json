@@ -1,14 +1,23 @@
 [{
-    "title": "General sponsor",
+    "title": "Organizers",
+     "logos": [{
+        "name": "ACM Student Chapter",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/munichacm.png"
+    },{
+        "name": "Stylight",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/stylight.png"
+    },{
+        "name": "Nerds4Refugees",
+        "url": "http://www.stylight.de/",
+        "logoUrl": "../images/organizers/nerds4refugees.png"
+    }]
+},{
+    "title": "Sponsors",
     "logos": [{
         "name": "Stylight",
         "url": "http://www.stylight.de/",
         "logoUrl": "../images/partners/stylight.png"
     }]
-}, {
-    "title": "Diamond sponsor"
-}, {
-    "title": "Platinum sponsors"
-}, {
-    "title": "Information partners"
 }]

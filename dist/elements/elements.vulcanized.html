@@ -35179,13 +35179,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <paper-icon-button class="menu-toggle" icon="menu" on-tap="togglePanel"></paper-icon-button>
                     <div class="flex hidden-xs">
                         <a data-route="home" href="/" hidden$="{{hideLogo}}">
-                            <img class="logo" src="../images/logo-white.svg" alt="GDG DevFest 2015">
+                            <img class="logo" src="../images/logo-white.png" alt="GDG DevFest 2015">
                         </a>
                     </div>
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
                         <paper-tab class="text-u-c" link="">
                             <a data-route="blog" href="#!/blog" class="nav-link horizontal center-center layout">
-                                Blog
+                                Team
                             </a>
                         </paper-tab>
                         <paper-tab class="text-u-c" link="">
@@ -35544,9 +35544,9 @@ Polymer({
                 </template>
             </div>
             <div>
-                <a data-route="speakers" href="#!/speakers" class="block-link">
+                <!-- <a data-route="speakers" href="#!/speakers" class="block-link">
                     <paper-button>View all speakers</paper-button>
-                </a>
+                </a> -->
             </div>
         </div>
     </template>
@@ -35840,7 +35840,7 @@ Polymer({
             </div>
             <div class="footer-content footer-links-container">
                 <nav class="layout vertical-horizontal flex">
-                    <div class="flex link-block-wrapper">
+                    <!-- <div class="flex link-block-wrapper">
                         <span class="link-block-title block">For visitors</span>
                         <ul class="link-block">
                             <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
@@ -35856,23 +35856,23 @@ Polymer({
                             <li><a href="http://bit.ly/dfua-media" target="_blank">Media Kit</a></li>
                             <li><a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">Media Accreditation</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="flex link-block-wrapper">
                         <span class="link-block-title block">Contact us</span>
                         <ul class="link-block">
-                            <li><a href="mailto:devfest@gdg.org.ua">devfest@google.com</a></li>
+                            <li><a href="mailto:devfest@gdg.org.ua">munichacm@google.com</a></li>
                         </ul>
                         <div class="icons-wrapper align-pb-block">
-                            <a href="https://plus.google.com/102444623953913144164" target="_blank">
+                            <a href="https://plus.google.com/105345095542199863368/about" target="_blank">
                                 <paper-icon-button icon="app-icons:gplus"></paper-icon-button>
                             </a>
-                            <a href="https://www.facebook.com/GDGLviv" target="_blank">
+                            <a href="https://www.facebook.com/" target="_blank">
                                 <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
                             </a>
-                            <a href="https://twitter.com/gdglviv" target="_blank">
+                            <a href="https://twitter.com/CSclubMuc" target="_blank">
                                 <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
                             </a>
-                            <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
+                            <a href="https://www.linkedin.com/" target="_blank">
                                 <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
                             </a>
                         </div>
@@ -36737,7 +36737,7 @@ Polymer({
         properties: {
             author: {
                 type: String,
-                value: 'GDGLviv'
+                value: 'HACKNHELP'
             },
             url: {
                 type: String
@@ -36745,7 +36745,7 @@ Polymer({
             text: {
                 type: String,
                 observer: '_textChanged',
-                value: 'Tweet us about your experience at GDG DevFest Ukraine 2015'
+                value: 'Tweet us about your experience at Hack & Help 2015'
             },
             when: {
                 type: Date
@@ -36797,13 +36797,13 @@ Polymer({
                     <a href="https://plus.google.com/102444623953913144164" target="_blank">
                         <paper-icon-button icon="app-icons:gplus"></paper-icon-button>
                     </a>
-                    <a href="https://www.facebook.com/GDGLviv" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
                     </a>
-                    <a href="https://twitter.com/gdglviv" target="_blank">
+                    <a href="https://twitter.com/" target="_blank">
                         <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
                     </a>
-                    <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
+                    <a href="https://www.linkedin.com/company/" target="_blank">
                         <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
                     </a>
                 </div>
@@ -36889,7 +36889,7 @@ Polymer({
             margin: 0;
         }
 
-        .posted {
+        .members {
             margin-bottom: 5px;
             font-size: 14px;
             color: var(--secondary-text-color);
@@ -36944,8 +36944,8 @@ Polymer({
                     <div class="post-detail card-content layout horizontal">
                         <div class="flex layout vertical center-center">
                             <span class="title self-start">[[meta.title]]</span>
-                            <span class="posted self-start">Posted:
-                                <span>[[meta.posted]]</span>
+                            <span class="members self-start">Team members:
+                                <span>[[meta.members]]</span>
                             </span>
                         </div>
                         <div>
@@ -36964,8 +36964,8 @@ Polymer({
                 <div id="title" class="bottom title">[[meta.title]]</div>
             </paper-toolbar>
             <div class="content">
-                <span class="posted">Posted:
-                    <span>[[meta.posted]]</span>
+                <span class="members">Team members:
+                    <span>[[meta.members]]</span>
                 </span>
                 <div class="card-content people-description">
                     <marked-element class="post-content" markdown="[[post]]"></marked-element>
@@ -37044,7 +37044,7 @@ Polymer({
                 line-height: 1.2
             }
 
-            .posted {
+            .members {
                 font-size: 14px;
                 color: var(--secondary-text-color);
             }
@@ -37073,8 +37073,8 @@ Polymer({
                     <paper-material class="layout vertical">
                         <div class="card-content">
                             <span class="title block">[[post.title]]</span>
-                            <span class="posted">Posted
-                                <span>[[post.posted]]</span>
+                            <span class="members">Team members:
+                                <span>[[post.members]]</span>
                             </span>
                         </div>
                         <div class="brief card-content flex">
