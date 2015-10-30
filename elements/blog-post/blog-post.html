@@ -137,7 +137,7 @@ Polymer({
         });
     },
     _metaChanged: function() {
-        this.postUrl = '../../posts/' + this.meta.file;
+        this.postUrl = 'http://munichacm.de/hacknhelp/posts/' + this.meta.file;
         this.$.ajax.generateRequest();
     },
     postLoaded: function(event, response) {
