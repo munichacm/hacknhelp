@@ -236,6 +236,33 @@ gulp.task('serve', ['styles', 'elements', 'images'], function () {
     }
   });
 
+  // Watch Files For Changes & Reload
+  gulp.task('serve_uber', ['styles', 'elements', 'images'], function () {
+    browserSync({
+      notify: false,
+      snippetOptions: {
+        rule: {
+          match: '<span id="browser-sync-binding"></span>',
+          fn: function (snippet) {
+            return snippet;
+          }
+        }
+      },
+      // Run as an https by uncommenting 'https: true'
+      // Note: this uses an unsigned certificate which on first access
+      //       will present a certificate warning in the browser.
+      // https: true,
+      server: {
+        baseDir: ['.tmp', 'app'],
+        routes: {
+          '/bower_components': 'bower_components'
+        }
+      },
+      ui: false,
+      port: 61001
+
+    });
+
   gulp.watch(['app/**/*.html'], reload);
   gulp.watch(['app/styles/**/*.css'], ['styles', reload]);
   gulp.watch(['app/elements/**/*.css'], ['elements', reload]);
