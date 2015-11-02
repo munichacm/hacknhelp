@@ -256,12 +256,11 @@ gulp.task('serve', ['styles', 'elements', 'images'], function () {
         baseDir: ['.tmp', 'app'],
         routes: {
           '/bower_components': 'bower_components'
-        }
-      },
-      ui: false,
-      port: 61001
-
-    });
+        },
+        ui: false,
+        port: 61001
+      }
+  });
 
   gulp.watch(['app/**/*.html'], reload);
   gulp.watch(['app/styles/**/*.css'], ['styles', reload]);
