@@ -10,24 +10,24 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Cytomining in Action"
-email: "shsingh@broad.mit.edu"
-description: "Cytomining Hackathon"
-baseurl: "/cytomining-hackathon/"
-url: "https://broadinstitute.github.io"
+title: "Hack and Help"
+email: ""
+description: "Hack and Help Hackathon"
+baseurl: "/hacknhelp/"
+url: "https://munichacm.github.io"
 #permalink: "/blog/:title"
 
 # Organizer Info
-organizerName: "Broad Institute | Imaging Platform"
+organizerName: "MunichACM & Stylight"
 organizerAlternateName: ""
 organizerDescription: ""
 organizerEmail: ""
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "https://www.broadinstitute.org/~anne/"
+organizerLink: "https://www.munichacm.org"
 
 # Head
-metaKeywords: "profiling, imaging"
-twitterAccount: "@cellprofiler"
+metaKeywords: "refugees, tech"
+twitterAccount: "@CSClubMuc"
 addThisEvent: true
 socialImageSrcGooglePlus: "/img/sections-background/hero.jpg"
 socialImageSrcTwitter: "/img/sections-background/hero.jpg"
@@ -54,10 +54,10 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "<typeout> Hackathon"
-eventDate: "Date to be announced"
-typeoutTextValues: '"Cytomining", "Machine Learning", "Profiling", "Cell Imaging"'
-typeoutFallback: "Cytomining "
+heroTitle: "Hack <typeout>"
+eventDate: "<h4>A local tech response to the european refugee crisis</h4> <br> <h5>19th November</h5>"
+typeoutTextValues: '"and Help", "and Change", "for Refugees", ", Connect and Solve"'
+typeoutFallback: "and Help"
 heroButtons:
  #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  #- {permalink: "/#tickets", text: "Buy tickets"}
@@ -72,9 +72,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "20", specialCharacter: "+", info: "attendees", detail: "from rockstar labs"}
+ - {count: "20", specialCharacter: "+", info: "attendees", detail: "from rockstar organisations"}
  - {count: "5", specialCharacter: "+", info: "tables", detail: "of snacks, pizza and beer"}
- - {count: "2", specialCharacter: "", info: "awesome days", detail: "for hacking, community-building and fun"}
+ - {count: "1", specialCharacter: "", info: "goal", detail: "solving a big problem"}
 
 # Latest News Block (We dont need )
 latestNewsTitle: "Latest news"
@@ -87,19 +87,19 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Broad Institute of MIT and Harvard"
-eventLocationLink: "http://broadinstitute.org"
-eventStreetAddress: "415 Main St"
-eventAddressLocality: "Cambridge"
-eventAddressLocalityRegion: "MA"
-eventPostalCode: "02142"
-eventAddressCountry: "USA"
-eventStartTime: ""
-eventDoorTime: ""
-eventEndTime: ""
-eventPlaceCoordinates: "42.3635146,-71.0910085"
-mapCenterCoordinates: "42.3635146,-71.0910085"
-mapMobileCenterCoordinates: "42.3635146,-71.0910085"
+eventLocationName: "STYLIGHT Office"
+eventLocationLink: "http://www.stylight.de/"
+eventStreetAddress: "Nymphenburger Str. 86, 80636 München"
+eventAddressLocality: "Munich"
+eventAddressLocalityRegion: "Bavaria"
+eventPostalCode: "85748"
+eventAddressCountry: "Germany"
+eventStartTime: "2015-06-24T17:30"
+eventDoorTime: "17:15"
+eventEndTime: "2015-06-24T20:00"
+eventPlaceCoordinates: "48.1506177,11.5470593"
+mapCenterCoordinates: "48.1506177,11.5470593"
+mapMobileCenterCoordinates: "48.1506177,11.5470593"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -107,7 +107,7 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "TBA"
+venueTitle: "Stylight HQ"
 venueFeatures: ["Beautiful room", "Free beer and sandwiches", "A lot of space"]
 
 # Tweets Feed Block
@@ -177,11 +177,12 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://broadinstitute.org", text: "Broad Institute"}
+   - {link: "http://munichacm.de", text: "Munich ACM"}
+   - {link: "http://stylight.de", text: "Stylight"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:shsingh@broad.mit.edu", text: "Imaging Platform | Broad Institute"}
+   - {link: "mailto:", text: "Munich ACM & Stylight"}
  # -
  #  title: "FAQ"
  #  links:
@@ -248,10 +249,9 @@ hackathonTitle: "Hackathon"
 enableHackathon: false
 
 # Hackathon About Block
-aboutHackathonTitle: "Our topics"
+aboutHackathonTitle: "About us"
 hackathonRows:
- - {title: "Cytomining", image: "hackathon-0.png", details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
- - {title: "Profiling", image: "hackathon-1.png", details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+ - {title: "A local tech response", image: "hackathon-0.png", details: "A local tech response to the european refugee crisis. Get an overview of the crisis from helpers at the frontline. Connect with motivated hackers and helpers. Solve local problems with global impact. <br> <br> HACK. CONNECT. SOLVE."}
 # Hackathon Judges Block (We dont need)
 judgesImage: "judges.jpg"
 judgesTitle: "Judges"
