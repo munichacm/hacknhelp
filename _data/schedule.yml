@@ -1,0 +1,11 @@
+- 
+  date: "TBA"
+  dateReadable: "TBA"
+  tracks: 
+    - {title: "Cytomining Hackathon", color: "#90be4e"}
+  timeslots:
+    - {
+        startTime: "17:30",
+        endTime: "18:00",
+        sessionIds: [100,999]
+    }

@@ -1,0 +1,282 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Cytomining in Action"
+email: "shsingh@broad.mit.edu"
+description: "Cytomining Hackathon"
+baseurl: "/cytomining-hackathon/"
+url: "https://broadinstitute.github.io"
+#permalink: "/blog/:title"
+
+# Organizer Info
+organizerName: "Broad Institute | Imaging Platform"
+organizerAlternateName: ""
+organizerDescription: ""
+organizerEmail: ""
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "https://www.broadinstitute.org/~anne/"
+
+# Head
+metaKeywords: "profiling, imaging"
+twitterAccount: "@cellprofiler"
+addThisEvent: true
+socialImageSrcGooglePlus: "/img/sections-background/hero.jpg"
+socialImageSrcTwitter: "/img/sections-background/hero.jpg"
+socialImageSrcFacebook: "/img/sections-background/hero.jpg"
+
+# Documents
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: ""
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ #- {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ #- {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/logistics/", text: "Logistics"}
+bottomNavigationLinks:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+rightNavigationButtons:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "<typeout> Hackathon"
+eventDate: "Date to be announced"
+typeoutTextValues: '"Cytomining", "Machine Learning", "Profiling", "Cell Imaging"'
+typeoutFallback: "Cytomining "
+heroButtons:
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {permalink: "/#tickets", text: "Buy tickets"}
+
+# About Block
+aboutTitle: "Cytomining in Action"
+aboutBlock:
+ - {title: "Awesome topic", image: "conference.jpg", text: "The first ever Cytomining Hackathon. Attend, ask questions and have fun." }
+ - {title: "Awesome people", image: "workshop.jpg", text: "It's a meetup. Meet and talk to awesome people and get things started. Of course drinks and snacks are for free!" }
+ - {title: "Awesome hacks", image: "hackathon.jpg", text: "Get things done and change how cytomining is done" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "20", specialCharacter: "+", info: "attendees", detail: "from rockstar labs"}
+ - {count: "5", specialCharacter: "+", info: "tables", detail: "of snacks, pizza and beer"}
+ - {count: "2", specialCharacter: "", info: "awesome days", detail: "for hacking, community-building and fun"}
+
+# Latest News Block (We dont need )
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 3
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Broad Institute of MIT and Harvard"
+eventLocationLink: "http://broadinstitute.org"
+eventStreetAddress: "415 Main St"
+eventAddressLocality: "Cambridge"
+eventAddressLocalityRegion: "MA"
+eventPostalCode: "02142"
+eventAddressCountry: "USA"
+eventStartTime: ""
+eventDoorTime: ""
+eventEndTime: ""
+eventPlaceCoordinates: "42.3635146,-71.0910085"
+mapCenterCoordinates: "42.3635146,-71.0910085"
+mapMobileCenterCoordinates: "42.3635146,-71.0910085"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "TBA"
+venueFeatures: ["Beautiful room", "Free beer and sandwiches", "A lot of space"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "cytomining"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block (we dont need)
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+#Tickets Block (We dont need)
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+-
+ name: "Early Bird"
+ price: "350"
+ priceCurrency: "UAH"
+ ticketsNumber: "150"
+ ribbon: "-5%"
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-08-25T10:00"
+ validThrough: "2014-09-30T23:59"
+-
+ name: "Last Chance"
+ price: "450"
+ priceCurrency: "UAH"
+ ticketsNumber: "100"
+ ribbon: "-20%"
+ featured: true
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-10-01T00:00"
+ validThrough: "2014-10-23T23:59"
+ disabled: true
+-
+ name: "Student"
+ price: "200"
+ priceCurrency: "UAH"
+ ticketsNumber: "50"
+ buyButtonLink: "http://dfua.ticketforevent.com/"
+ buyButtonText: "Buy Now"
+ additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+ ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ validFrom: "2014-08-20T10:00"
+ validThrough: "2014-10-23T23:59"
+ soldOut: true
+ soldOutText: "Sold Out"
+
+# Footer
+socialLinks:
+ - {link: "", icon: "google-plus"}
+ - {link: "", icon: "twitter"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://broadinstitute.org", text: "Broad Institute"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:shsingh@broad.mit.edu", text: "Imaging Platform | Broad Institute"}
+ # -
+ #  title: "FAQ"
+ #  links:
+ #   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "The Carpenter Lab is based at the Broad Institute of MIT and Harvard in Cambridge, Massachusetts, USA. Our research group develops advanced methods and software tools to quantify and mine the rich information present in cellular images to yield biological discoveries. Our laboratory is best known for our open source software packages CellProfiler and CellProfiler Analyst, but our main focus these days is profiling: we are using advanced machine learning methods to identify morphological patterns in cell populations, to probe the causes and cures for disease."
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "48.1506177,11.5470593"
+logisticsMapMobileCenterCoordinates: "48.1506177,11.5470593"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+# directionDetailsTitle: "Get around Munich"
+# directionDetailsCards:
+#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+# directionDetailsWideCards:
+#  -
+#   title: "Questions?"
+#   subCards:
+#    -
+#     title: "Hotels"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    -
+#     title: "Registration"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    -
+#     title: "Attendance Details"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon 
+hackathonTitle: "Hackathon"
+enableHackathon: false
+
+# Hackathon About Block
+aboutHackathonTitle: "Our topics"
+hackathonRows:
+ - {title: "Cytomining", image: "hackathon-0.png", details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+ - {title: "Profiling", image: "hackathon-1.png", details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+# Hackathon Judges Block (We dont need)
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block (We dont need)
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block (We dont need)
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Fakultät für Informatik"
+hackathonLocationLink: "http://tum.de/"
+hackathonStreetAddress: "Boltzmannstraße 3"
+hackathonAddressLocality: "Munich"
+hackathonAddressLocalityRegion: "Bavaria"
+hackathonPostalCode: "85748"
+hackathonAddressCountry: "Germany"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 11.669776"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

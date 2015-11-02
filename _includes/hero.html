@@ -1,0 +1,40 @@
+<!-- Begin Hero Section -->
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+    {% include navigation.html %}
+    <div class="content-wrapper">
+    <div class="jumbotron">
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+            {% assign heroText = site.heroTitle | split:"<typeout>" %}
+            <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
+            <p>{{ site.eventDate }}</p>
+
+<!-- <div title="Add to Calendar" class="addthisevent">
+    Add to Calendar
+    <span class="start">08/05/2015 17:15</span>
+    <span class="end">08/05/2015 21:00</span>
+    <span class="timezone">Europe/Berlin</span>
+    <span class="title">Deep Learning in Action</span>
+    <span class="description">Deep Learning in Action is a Speaker Series from TUM Students for TUM Students.
+    See more at http://munichacm.de/deeplearning/</span>
+    <span class="location">TrustYou GmbH</span>
+    <span class="organizer">CS Student Club Munich</span>
+    <span class="organizer_email">munichacm@gmail.com</span>
+    <span class="all_day_event">false</span>
+    <span class="date_format">MM/DD/YYYY</span>
+</div> -->
+            
+            <a href="" class="btn btn-primary waves-effect waves-button waves-light waves-float">Save your seat!</a>
+
+            {% for button in site.heroButtons %}
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    <a href="#about" class="explore">
+        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
+        </svg>
+    </a>
+    </div>
+</section>
+<!-- End Hero Section -->

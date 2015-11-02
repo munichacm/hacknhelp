@@ -1,0 +1,4 @@
+- 
+  group: "Main organizer"
+  elements: 
+    - {name: "Imaging Platform at Broad", description: "Broad Institute of MIT and Harvard", link: "http://broadinstitute.org/", imageUrl: "broad.png"}

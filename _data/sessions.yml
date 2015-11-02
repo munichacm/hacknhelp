@@ -1,0 +1,12 @@
+-
+  id: 100
+  title: "Arrival & Get-together"
+  language: en
+  service: true
+  description: "Grab some beer and food and get excited"
+- 
+  id: 999
+  title: "Hacking"
+  language: en
+  service: true
+  description: "Thing out the box. Create what you want"

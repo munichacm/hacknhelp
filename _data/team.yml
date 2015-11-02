@@ -1,0 +1,10 @@
+
+- 
+  id: 0
+  name: "Imaging Platform"
+  surname: ""
+  title: "Broad Institute of MIT and Harvard"
+  thumbnailUrl: broad.png
+  team: true
+  social: 
+    - {name: "site", link: "http://broadinstitute.org/"}
