@@ -1,71 +1,35 @@
-- id: 1001
-  title: Arrival & Get-together
-  description: Grab some drinks and snacks and get ready.
-- id: 1003
-  title: Coffee break
-  description: Coffeeeeeee!
-- id: 1006
-  title: Pitching Potential Projects for Hackathon
-  description: 'Afterpaty is a great time to have some fun and meet new people.<br/><br/><b>Location</b>:
-    Club Arsenal Market, [Pidvalna St 5](http://club.arsenalmarket.lviv.ua/uk/contacts/)<br/><br/>Free
-    shot for all DevFest attendees included.<br/><br/>Don''t forget to bring your
-    badge.'
-  track:
-    title: Club Arsenal Market
-- id: 1007
-  title: Conference closing and contest winners announcements
-  description: Make sure you won't miss closing ceremony, all gifts from out sponsors
-    and partners will find their owners during this session.
-  language: uk
-  complexity: ''
-  presentation: ''
-  video: ''
-- id: 109
-  title: Helpers Pitching
-  description: ''
-  speakers:
-  - 9
+- 
+  id: 1001
+  title: "Arrival & Get-together"
+  service: true
+  description: "Grab some drinks and snacks and get ready."
+- 
+  id: 1003
+  title: "Coffee break"
+  service: true
+  description: "The best time to talk with all the helpers and attendees"
+- 
+  id: 1006
+  title: "Pitching Potential Projects for Hackathon"
+  service: true
+  description: "Afterpaty is a great time to have some fun and meet new people."
+- 
+  id: 209
+  title: "Helpers Pitching"
+  description: "Helpers from different organizations share their experiences."
+  speakers: [9,10,11]
   language: en
   complexity: Beginner
-  presentation: ''
-  video: ''
-  tags:
-  - Cloud
-  - gRPC
-  - Kubernetes
-- id: 209
-  title: Helpers Pitching
-  description: ''
-  speakers:
-  - 9
+- 
+  id: 309
+  title: "Forming Groups to Brainstorm"
+  service: true
+  description: "Time to team up and brainstorm some possible ideas."
+  complexity: Beginner
+- 
+  id: 125
+  title: "Welcome to Hack’n’Help"
+  description: "Official start of the conference. Greatings from the organizers and sponsors."
+  speakers: [1]
   language: en
   complexity: Beginner
-  presentation: ''
-  video: ''
-  tags:
-  - Cloud
-  - gRPC
-  - Kubernetes
-- id: 309
-  title: Forming Groups to Brainstorm
-  description: Time to team up and brainstorm some possible ideas.
-  language: en
-  complexity: Beginner
-  presentation: ''
-  video: ''
-  tags:
-  - Cloud
-  - gRPC
-  - Kubernetes
-- id: 125
-  title: Welcome to Hack’n’Help
-  description: Official start of the conference. Greatings from the organizers and
-    sponsors.
-  speakers:
-  - 1
-  language: en
-  complexity: Beginner
-  presentation: ''
-  video: ''
-  tags:
-  - Entrepreneurship

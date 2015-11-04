@@ -1,12 +1,12 @@
-- id: 1
+- 
+  id: 1
   featured: true
-  name: Johann Romefort
-  title: Engineering Evangelist
-  company: STYLIGHT
-  country: Munich, Germany
-  photoUrl: "../images/people/johann.jpg"
+  name: "Johann Romefort"
+  title: "Engineering Evangelist"
+  company: "STYLIGHT"
+  country: "Munich, Germany"
+  thumbnailUrl: johann.jpg
   bio: ''
-  tags: []
   badges:
   - name: HacknHelp
     description: ''
@@ -18,15 +18,15 @@
   - name: GitHub
     icon: app-icons:github
     link: https://github.com/
-- id: 9
+- 
+  id: 9
   featured: true
-  name: HacknHelp Speaker
-  title: Developer Relations Engineer
-  company: Google
-  country: Munich, Germany
-  photoUrl: "../images/people/speaker1.jpg"
+  name: "HacknHelp Speaker"
+  title: "Developer Relations Engineer"
+  company: "HacknHelp"
+  country: "Munich, Germany"
+  thumbnailUrl: speaker1.jpg
   bio: ''
-  tags: []
   socials:
   - name: Google+
     icon: app-icons:gplus
@@ -37,14 +37,14 @@
   - name: GitHub
     icon: app-icons:github
     link: https://github.com/
-- id: 10
+- 
+  id: 10
   name: HacknHelp Speaker
-  title: Senior Android Developer
-  company: HacknHelp
-  country: Munich, Germany
-  photoUrl: "../images/people/speaker2.jpg"
+  title: "Senior Android Developer"
+  company: "HacknHelp"
+  country: "Munich, Germany"
+  thumbnailUrl: speaker2.jpg
   bio: ''
-  tags: []
   badges:
   - name: HacknHelp
     description: ''
@@ -56,12 +56,13 @@
   - name: LinkedIn
     icon: app-icons:linkedin
     link: http://ua.linkedin.com/pub/
-- id: 17
-  name: HacknHelp Speaker
-  title: Project manager
-  company: Hackraft
-  country: Munich, Germany
-  photoUrl: "../images/people/speaker3.png"
+- 
+  id: 11
+  name: "HacknHelp Speaker"
+  title: "Project manager"
+  company: "HacknHelp"
+  country: "Munich, Germany"
+  thumbnailUrl: speaker3.jpg
   bio: ''
   tags: []
   badges:

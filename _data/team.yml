@@ -1,10 +1,28 @@
 
 - 
   id: 0
-  name: "Imaging Platform"
+  name: "Munich ACM"
   surname: ""
-  title: "Broad Institute of MIT and Harvard"
+  title: "ACM Student Chapter"
   thumbnailUrl: broad.png
   team: true
   social: 
-    - {name: "site", link: "http://broadinstitute.org/"}
+    - {name: "site", link: "http://munichacm.de/"}
+- 
+  id: 1
+  name: "STYLIGHT"
+  surname: ""
+  title: ""
+  thumbnailUrl: 
+  team: true
+  social: 
+    - {name: "site", link: "http://stylight.de/"}
+- 
+  id: 2
+  name: "Nerds4Refugee"
+  surname: ""
+  title: ""
+  thumbnailUrl: 
+  team: true
+  social: 
+    - {name: "site", link: "http://nerd34refugee.de/"}
