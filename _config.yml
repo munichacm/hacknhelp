@@ -14,7 +14,7 @@ title: "Hack and Help"
 email: "mail@hacknhelp.org"
 description: "Hack and Help MeetUp"
 baseurl: "/hacknhelp"
-url: "http://hacknhelp.org"
+url: "http://hacknhelp.github.io"
 #permalink: "/blog/:title"
 
 # Organizer Info
@@ -55,7 +55,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "Hack <typeout>"
-eventDate: "<h4>A local tech response to the european refugee crisis</h4> <br> <h5>19th November</h5>"
+eventDate: "<h4>A local tech response to the european refugee crisis</h4> <br> <h5>19th November 2015</h5>"
 typeoutTextValues: '"and Help", "and Change", "for Refugees", ", Connect and Solve"'
 typeoutFallback: "and Help"
 heroButtons:
