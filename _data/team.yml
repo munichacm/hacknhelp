@@ -17,12 +17,3 @@
   team: true
   social: 
     - {name: "site", link: "http://stylight.de/"}
-- 
-  id: 2
-  name: "Nerds4Refugee"
-  surname: ""
-  title: ""
-  thumbnailUrl: 
-  team: true
-  social: 
-    - {name: "site", link: "http://nerd34refugee.de/"}

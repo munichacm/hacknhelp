@@ -3,4 +3,3 @@
   elements:
     - {name: "Munich ACM", description: "ACM Student Chapter", link: "http://munichacm.de/", imageUrl: "munichacm.png"}
     - {name: "Stylight", description: "Stylight", link: "http://www.stylight.de/", imageUrl: "stylight.png"}
-    - {name: "Nerds4Refugees", description: "Nerds4Refugees", link: "https://www.facebook.com/nerds4refugees/", imageUrl: "nerds4refugees.png"}
